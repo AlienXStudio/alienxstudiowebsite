@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className={styles.hero_image}>
           <Image
-          src={"./hero.png"}
+          src={"/hero.png"}
           alt='alienx hero Image'
           width={600}
           height={600}
@@ -93,7 +93,7 @@ export default function Home() {
       <section className={styles.experience}>
         <div className={styles.experience_image}>
           <Image
-          src={"./businessman.png"}
+          src={"/businessman.png"}
           alt='alienx studio businessman'
           width={600}
           height={607}
@@ -140,7 +140,7 @@ export default function Home() {
         </div>
         <div className={styles.arrow}>
           <Image
-          src={"./arrow.png"}
+          src={"/arrow.png"}
           alt='arrow'
           height={200}
           width={200}
@@ -161,7 +161,7 @@ export default function Home() {
         </div>
         <div className={styles.design_image}>
           <Image
-          src={"./design.png"}
+          src={"/design.png"}
           alt='design'
           height={282}
           width={356}
@@ -174,7 +174,7 @@ export default function Home() {
         <div className={styles.project_container}>
         <div className={styles.design_image}>
           <Image
-          src={"./design.png"}
+          src={"/design.png"}
           alt='design'
           height={282}
           width={356}
@@ -208,7 +208,7 @@ export default function Home() {
         </div>
         <div className={styles.design_image}>
           <Image
-          src={"./design.png"}
+          src={"/design.png"}
           alt='design'
           height={282}
           width={356}
@@ -221,7 +221,7 @@ export default function Home() {
         <div className={styles.project_container}>
         <div className={styles.design_image}>
           <Image
-          src={"./design.png"}
+          src={"/design.png"}
           alt='design'
           height={282}
           width={356}
