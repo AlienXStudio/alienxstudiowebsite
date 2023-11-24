@@ -1,0 +1,579 @@
+.main {
+  background-color: #fcf6e8;
+  color: #161537;
+}
+.main_hero {
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.stick {
+  position: fixed;
+}
+.logo h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.logo h1 span {
+  color: #f8c640;
+}
+.nav {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  z-index: 2;
+}
+.nav li {
+  display: flex;
+  align-items: center;
+}
+.nav li a {
+  color: #161537;
+  font-weight: bold;
+}
+.active {
+  border: 2px solid #161537;
+  border-radius: 15px;
+  padding: 7px 15px;
+}
+.btn {
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: #383838;
+  cursor: pointer;
+  z-index: 2;
+  /* box-shadow: 0 0.375em 0 currentcolor; */
+  /* box-shadow: 0.375em 0 #161537; */
+}
+
+/* Hero Section Starts From Here */
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  margin-top: 70px;
+}
+.hero_content h1 {
+  font-size: 4rem;
+  line-height: 120%;
+}
+.hero_content p {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.primary_btn {
+  height: 50px;
+  width: 150px;
+  background-color: #f8c640;
+  color: #161537;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0.375em 0.375em 0 #161537;
+  cursor: pointer;
+}
+
+.hero_image {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  z-index: 1;
+}
+
+/* Company Logo Starts From Here */
+.company {
+  height: 12vh;
+  background-color: #373737;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Services Section Starts From Here */
+.services {
+  height: 110vh;
+  padding-top: 60px;
+}
+.services h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.services p {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.card_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px 10px;
+}
+
+.card1 {
+  height: 300px;
+  width: 270px;
+  background-color: #9bd3d0;
+  border: 2px solid #161537;
+  border-radius: 20px;
+  text-align: start;
+}
+.card2 {
+  height: 300px;
+  width: 270px;
+  background-color: #feccb3;
+  border: 2px solid #161537;
+  border-radius: 20px;
+  text-align: start;
+}
+.card3 {
+  height: 300px;
+  width: 270px;
+  background-color: #fec447;
+  border: 2px solid #161537;
+  border-radius: 20px;
+  text-align: start;
+}
+.card4 {
+  height: 300px;
+  width: 270px;
+  background-color: #f43a5b;
+  border: 2px solid #161537;
+  border-radius: 20px;
+  text-align: start;
+}
+
+.card1:hover {
+  box-shadow: 0.395em 0.395em 0 #161537;
+}
+.card2:hover {
+  box-shadow: 0.395em 0.395em 0 #161537;
+}
+.card3:hover {
+  box-shadow: 0.395em 0.395em 0 #161537;
+}
+.card4:hover {
+  box-shadow: 0.395em 0.395em 0 #161537;
+}
+
+.design,
+.code,
+.shopping,
+.game {
+  margin: 15px 10px;
+  padding: 10px;
+  background-color: #fcf6e8;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.card1 h4 {
+  font-size: 1.7rem;
+  text-align: start;
+}
+
+.card2 h4 {
+  font-size: 1.7rem;
+  text-align: start;
+}
+
+.card3 h4 {
+  font-size: 1.7rem;
+  text-align: start;
+}
+
+.card4 h4 {
+  font-size: 1.7rem;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 p {
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.card_container p {
+  text-align: start;
+  font-size: 1rem;
+}
+
+/* Why Choose Us Starts From Here */
+.experience {
+  height: 100vh;
+  background-color: #fec447;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 150px;
+  padding-left: 100px;
+  gap: 100px;
+}
+.experience_image {
+  align-self: flex-end;
+}
+
+.experience_content {
+  flex: 1;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.experience_content h1 {
+  font-size: 3.5rem;
+  color: #fcf6e8;
+}
+
+.years {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.years span {
+  font-size: 3rem;
+}
+.years h5 {
+  font-size: 1.3rem;
+}
+.experience_content p {
+  font-size: 0.8rem;
+}
+
+/* Project Section Starts From Here */
+.home_projects {
+  height: 390vh;
+  background-color: #fcf5e7;
+  z-index: 5;
+}
+
+.project_head_container {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+.project_head h1 {
+  font-size: 3.5rem;
+}
+.arrow {
+  position: absolute;
+  left: 48rem;
+  top: 140rem;
+  filter: invert(1);
+}
+
+/* Project Portfolio Lists */
+.project_container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+.firstproject {
+  padding-top: 180px;
+}
+.project_catogries {
+  background-color: #9ad3cf;
+  color: #161537;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.firstproject h1 {
+  font-size: 3rem;
+  line-height: 130%;
+  color: #161537;
+}
+.firstproject p {
+  font-size: 1rem;
+  color: #161537;
+  font-weight: lighter;
+  padding-top: 15px;
+}
+.full_project {
+  margin-top: 25px;
+  height: 35px;
+  width: 170px;
+  border-radius: 15px;
+  border: 2px solid #161537;
+  background-color: transparent;
+  color: #161537;
+  font-size: 1rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.facircle {
+  height: 20px;
+  width: 20px;
+}
+.design_image {
+  margin-top: 210px;
+}
+.image_design {
+  border-radius: 15px;
+  box-shadow: 1em 1em 0 #9bd3d0;
+}
+.image_development {
+  border-radius: 15px;
+  box-shadow: -1em 1em 0 #feccb3;
+}
+.image_ecommerce {
+  border-radius: 15px;
+  box-shadow: 1em 1em 0 #f8c640;
+}
+.image_game {
+  border-radius: 15px;
+  box-shadow: -1em 1em 0 #f43a5b;
+}
+
+.more_projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/* Testomonials Feedback From Our Clients */
+.team {
+  height: 110vh;
+  padding-top: 100px;
+  background-color: #9ad3cf;
+}
+.team h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.team_container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px 10px;
+}
+
+.member1 {
+  position: relative;
+  height: 300px;
+  width: 270px;
+  background-color: #ffea9f;
+  border: 2px solid #161537;
+  border-radius: 20px;
+  text-align: start;
+}
+.member2 {
+  position: relative;
+  height: 300px;
+  width: 270px;
+  background-color: #ffbaaa;
+  border: 2px solid #161537;
+  border-radius: 20px;
+  text-align: start;
+}
+.member3 {
+  position: relative;
+  height: 300px;
+  width: 270px;
+  background-color: #abc5fe;
+  border: 2px solid #161537;
+  border-radius: 20px;
+  text-align: start;
+}
+.member4 {
+  position: relative;
+  height: 300px;
+  width: 270px;
+  background-color: #d2b6ff;
+  border: 2px solid #161537;
+  border-radius: 20px;
+  text-align: start;
+}
+
+.member1:hover {
+  box-shadow: 0.395em 0.395em 0 #161537;
+}
+.member2:hover {
+  box-shadow: 0.395em 0.395em 0 #161537;
+}
+.member3:hover {
+  box-shadow: 0.395em 0.395em 0 #161537;
+}
+.member4:hover {
+  box-shadow: 0.395em 0.395em 0 #161537;
+}
+
+.profile1 {
+  margin: 15px 10px;
+  padding: 15px;
+  background-color: #fcf6e8;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  left: 55px;
+}
+.profile2 {
+  margin: 15px 10px;
+  padding: 15px;
+  background-color: #fcf6e8;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  left: 55px;
+}
+.profile3 {
+  margin: 15px 10px;
+  padding: 15px;
+  background-color: #fcf6e8;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  left: 55px;
+}
+
+.profile4 {
+  margin: 15px 10px;
+  padding: 15px;
+  background-color: #fcf6e8;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  left: 55px;
+}
+.member1 h4 {
+  position: relative;
+  font-size: 2rem;
+  text-align: start;
+  top: 170px;
+  left: 15px;
+}
+
+.member2 h4 {
+  position: relative;
+  font-size: 2rem;
+  text-align: start;
+  top: 170px;
+  left: 15px;
+}
+
+.member3 h4 {
+  position: relative;
+  font-size: 2rem;
+  text-align: start;
+  top: 170px;
+  left: 15px;
+}
+
+.member4 h4 {
+  position: relative;
+  font-size: 2rem;
+  text-align: start;
+  top: 170px;
+  left: 15px;
+}
+.member1 p {
+  font-size: 1.2rem;
+  position: relative;
+  top: 180px;
+  left: 90px;
+}
+.member2 p {
+  font-size: 1.2rem;
+  position: relative;
+  top: 180px;
+  left: 90px;
+}
+.member3 p {
+  font-size: 1.2rem;
+  position: relative;
+  top: 180px;
+  left: 90px;
+}
+.member4 p {
+  font-size: 1.2rem;
+  position: relative;
+  top: 180px;
+  left: 90px;
+}
+
+.team_container p {
+  text-align: start;
+  font-size: 1r7m;
+}
+
+/* Footer Design Starts From Here */
+.footer {
+  height: 40vh;
+  background-color: #373737;
+}
+.footer_design {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  color: #fff;
+  gap: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+}
+.first_section {
+  width: 35%;
+}
+.first_section h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.first_section h1 span {
+  color: #f8c640;
+  font-size: 0.9;
+}
+.first_section p {
+  font-size: 0.9rem;
+}
+
+.second_section ul {
+  list-style: none;
+  line-height: 40px;
+}
+.third_section ul {
+  list-style: none;
+  line-height: 40px;
+}
+.fourth_section {
+  line-height: 60px;
+}
+.fourth_section h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.fourth_section p {
+  font-size: 1rem;
+}
+.fourth_section input {
+  height: 45px;
+  width: 305px;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  color: #161537;
+}
+.fourth_section input::placeholder {
+  color: #161537;
+  padding-left: 20px;
+  font-weight: bolder;
+  font-size: 0.8rem;
+}
